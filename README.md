@@ -1,2 +1,6 @@
 # kiss-dbus
-dbus and friends for KISS linux
+DBus and software that depends on it for KISS Linux.
+
+# Currently in this repository
+
+dbus
