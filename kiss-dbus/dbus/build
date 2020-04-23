@@ -1,0 +1,12 @@
+#!/bin/sh
+
+./configure \
+    --sysconfdir=/etc \ 
+    --localstatedir=/var \ 
+    --enable-user-session \
+    --disable-asserts \
+    --prefix=/usr \
+    --without-x 
+
+make
+make DESTDIR="$1" install
